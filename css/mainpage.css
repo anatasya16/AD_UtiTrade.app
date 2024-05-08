@@ -1,0 +1,269 @@
+ * {
+	margin: 0;
+}
+body {
+	background-color: maroon;
+	background-image: url('images/BG2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+	background-color: #d9eaf4;  
+}
+
+img[src="images/profile_default.png"]:hover {
+	width: 200px;
+	height: 200px;
+}
+
+/* LIST ICONS */
+#icon_logout, #icon_cart, #icon_history {
+	padding: 0px 20px;
+	text-align: center;
+	fill: #9A314A;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+#icon_logout{width: 120px;}
+#icon_cart, #icon_history {height: 45px; margin-top: 16px;}
+#icon_cart:hover, #icon_history:hover {
+	fill: #3b67e1;
+	height: 47px;
+	transform: scale(0.5px);
+}
+#icon_logout:hover{
+	fill: #3b67e1;
+	width: 122px;
+	transform: scale(0.5px);
+}
+
+#header {
+	width: 100%;
+	height: 7%;
+	position: absolute;
+	display: flex;
+	color: white;
+	padding: 20px;
+	justify-content: space-between;
+	background-color: rgb(255, 255, 255);
+	opacity: 0.6;
+	z-index: -1;
+}
+
+.button{
+	background-color: #ffffff;
+	border: 1px #D5DCE6;
+	border-radius: 50px;
+	border: none;
+	color: #838288;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 25px 30px;
+	width: 120px;  
+	height: 35px;
+	cursor: pointer;
+}
+
+.button:hover{
+	color: #9B314B;;
+	font-size: 35px;
+	text-decoration: double;
+	font-weight: 600;
+	width: 130px;  
+	height: 40px;
+}
+
+.gobackbtn, .totalprice, .method{
+	font-size: 13pt;
+	font-weight: bold;
+	color: #9A314A;
+}
+
+.gobackbtn:hover{
+	font-size: 13.5pt;
+	color: #eb8538;
+	transform: scale(1);
+}
+
+#content{
+	display: grid;
+	justify-content: center;
+}
+
+#content2{
+	display:inline-flex;
+	margin: auto;
+	margin-top: 3%;
+}
+
+#header2 {
+	position: sticky;
+	display: flex;
+	color: white;
+	padding: 20px;
+	justify-content: space-between;
+	z-index: 10;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+
+h2 {
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 100;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 30px;
+}
+.center{
+	margin:auto;
+}
+
+input[type="submit"] {
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #9B314B;
+    color: #ffffff;
+	width: 130px;  
+	height: 45px;
+}
+
+input[type=submit]:hover {
+	color: #3b67e1;
+	font-size: 23px;
+	text-align: auto;
+	width: 133px;  
+	height: 46px;
+	margin-bottom: 4px;
+  }
+
+  img[src="images/cart1-02.png"]:hover{
+	width: 60px;
+	height: 60px;
+  }
+
+  
+  img[src="images/history-03.png"]:hover{
+	width: 60px;
+	height: 60px;
+  }
+
+/* #card {
+	border-radius: 10px;
+	background-color: ghostwhite;
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px 5px grey;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 30px 100px;
+	padding: 0 80px;
+	height: auto;
+} */
+
+#card a {
+	display: grid;
+	border: 3px solid black;
+	background-color: rgb(241, 136, 5);
+	color: white;
+	padding: 20px;
+	margin: 50px;
+	font-size: 30px;
+	justify-content: center;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+#card .slide a {
+	margin: auto 50px;
+}
+
+#card .dropdown {
+	display: grid;
+	border: 3px solid black;
+	background-color: rgb(241, 136, 5);
+	color: white;
+	padding: 20px;
+	margin: 50px;
+	font-size: 30px;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+li a {
+	text-decoration: none;
+	color: #2d2f31;
+}
+
+.slide {
+	display: grid;
+	border-radius: 20px;
+	background-color: ghostwhite;
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+	text-align: center;
+	list-style: none;
+	padding-left: 0px;
+	transition: height 0.5s ease;
+	align-content: space-evenly;
+}
+
+.icon{
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#header_icon{
+	display:inline-flex;
+}
+
+#touch1 {
+	display: grid;
+	background-color: rgb(241, 136, 5);
+	color: white;
+	font-size: 30px;
+    justify-content: center;
+	text-decoration: none;
+	border: none;
+	opacity: 0;
+    margin-top: 0px;
+    display: none;
+}
+
+#touch2 {
+	display: grid;
+	background-color: rgb(241, 136, 5);
+	color: white;
+	font-size: 30px;
+    justify-content: center;
+	text-decoration: none;
+	border: none;
+	opacity: 0;
+    margin-top: 0px;
+    display: none;
+}
+
+#touch1:checked + .slide {
+    margin-top: 20px;
+	height: 600px;
+}
+
+#touch2:checked + .slide {
+    margin-top: 20px;
+	height: 600px;
+}
